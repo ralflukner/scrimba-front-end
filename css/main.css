@@ -14,7 +14,7 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4;
+/*  line-height: 1.4;*/
 }
 
 /*
@@ -261,6 +261,14 @@ textarea {
   }
 }
 p {
-	margin: 0 !important; 
+	margin-left: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h1 {
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
