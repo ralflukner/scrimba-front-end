@@ -12,6 +12,7 @@
    ========================================================================== */
 
 html {
+  padding-top: 25px;
   color: #222;
   font-size: 1em;
 /*  line-height: 1.4;*/
@@ -259,6 +260,15 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+body {
+  width: 80%;
+  padding: 20px;
+  margin: 0px auto;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: #E1EDEB;
 }
 p {
 	margin-left: 5px;
