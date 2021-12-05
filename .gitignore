@@ -4,3 +4,5 @@
 node_modules
 dist
 .cache
+/css/singlePageTemplate.css
+/dw-design-sample.html
