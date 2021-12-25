@@ -8,6 +8,17 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Vollkorn:ital,wght@0,600;1,500&display=swap');
+
+:root {
+  --type-body: Open Sans, Helvetica, Arial, sans-serif;
+  --type-quote: Vollkorn;
+  --quote-image-width: 140px;
+  --border-rad: 7px;
+  --accent-color: hsl(322deg 85% 65%);
+  --quote-bg: hsl(0 0% 97%);
+}
+
 html {
   padding-top: 25px;
   color: #222;
@@ -243,9 +254,12 @@ p {
   margin-bottom: 0px;
 }
 h1 {
+  background-color: #281B2D;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  padding: 25px 0;
   margin-left: 5px;
   margin-top: 0px;
   margin-bottom: 5px;
 }
-
-
