@@ -310,5 +310,8 @@ h1, h2, h3 {
 }
 .second-col {
 	margin-left: 50%;
-	padding: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0;
+	padding-top: 0;
 }
