@@ -8,8 +8,8 @@
       'gtm.start':
         new Date().getTime(), event: 'gtm.js'
     });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    let f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
     j.async = true;
     j.src =
       'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
@@ -26,8 +26,8 @@
 <meta property="og:url" content="https://luknerclinic.net">
 <meta property="og:image" content="doctor-male.png">
 <meta name="Author" content="Ralf B. Lukner MD PhD">
-<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-<link href="http://fonts.googleapis.com/css?family=Noto Sans JP" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto Sans JP" rel="stylesheet">
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="doctor-male.png">
 <!-- Place favicon.ico in the root directory --> 
@@ -35,20 +35,24 @@
 <!-- Stylesheets from site template (WebStorm) -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
+
 <!-- Stylesheet from Adobe DW Adding HTML content tutorial -->
 <link rel="stylesheet" href="css/styles.css">
 <meta name="theme-color" content="#fafafa">
 
-<!-- Adobe DW elements --> 
+<!-- Adobe Typekit --> 
 <script src="https://use.typekit.net/kxf0iwn.js"></script> 
 <script>try {
     Typekit.load({async: true});
   } catch (e) {
-  }</script>
+  }</script> 
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--> 
+<script>var __adobewebfontsappname__="dreamweaver"</script> 
+<script src="http://use.edgefonts.net/amaranth:n4:default;acme:n4:default;abril-fatface:n4:default;cabin:n4:default;doppio-one:n4:default;lusitana:n4:default;antic-didone:n4:default.js" type="text/javascript"></script>
 </head>
-<body>
-<div class="page-wrap">
-  <div class="content-wrap"> 
+<body style="background-color: rgba(255,255,255,0.7); border: solid thin rgba(206,29,32,1.00)">
+<div class="page-wrap" style="background-color: rgba(255,255,255,0.0);">
+  <div class="content-wrap" style="backround-color: brown;"> 
     <!-- Google Tag Manager (noscript) -->
     <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLKDBPW"
@@ -56,41 +60,57 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) --> 
     <!-- Add your site or application content here -->
-    <div class="container">
-      <h1 class="main-text"><span class="company-name">Lukner Medical Clinic, PLLC</span></h1>
-    </div>
-    <main>
+    <header>
+      <div class="primary_header">
+        <h1 class="title"> Lukner Medical Clinic, PLLC</h1>
+      </div>
+      <nav class="secondary_header" id="menu">
+        <ul>
+          <li>ABOUT</li>
+          <li><a href="lmc-diagnosis.html">DIAGNOSIS</a></li>
+          <li>PORTFOLIO</li>
+          <li>SERVICES</li>
+          <li>CLIENTS</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+    </header>
+    <main> 
+      <!--
+      <div class="container">
+        <h1 class="main-text"><span class="company-name" style="">Lukner Medical Clinic, PLLC</span></h1>
+      </div>
+--> 
+      <span style="font-family: abril-fatface;font-style: normal;font-weight: 400;"> </span>
       <section class="hero-overview">
-        <section class="hero">
-          <div class="container">
-            <article>
-              <div class="hero-content">
-                <p>We listen to you and give you comprehensive medical care from a young
-                  age to the advanced years.</p>
-              </div>
-            </article>
+        <section class="hero" style="background-color: rgb(255,255,255,0)">
+          <div class="hero-content">
+            <p class="slogan">We listen to you and give you comprehensive medical care from a young
+              age to the advanced years.</p>
           </div>
+          </article>
         </section>
-        <div class="two-cols">
-          <div class="first-col">
-            <h2 style="margin-top: 10px; margin-left: 10px;">Types of Medical Care offered:</h2>
-            <ul>
+        <div class="two-cols" style="background-color-opacity: 0.7;">
+          <div class="first-col" style="background-color-opacity: 0;">
+            <h2 style="margin-top: 10px; margin-left: 10px; margin-top: 10px; font-family: doppio-one; font-style: normal; font-weight: 400; font-size: 24px; background-color-opacity: 0;">Medical Care Offered:</h2>
+            <ul style="font-family: 'antic-didone'; font-style: normal; font-weight: 400;">
               <li>Precise diagnoses for many symptoms and diseases</li>
               <li>Guidance, counseling, and preventive care for overall health</li>
               <li>Life-long comprehensive care and palliative care</li>
-              <li>Diagnosis and treatment of mental health disorders</li>
-              <ul>
-                <li>Depression</li>
-                <li>Anxiety</li>
-                <li>ADHD</li>
-                <li>Bipolar DO</li>
-              </ul>
+              <li>Diagnosis and treatment of mental health disorders
+                <ul>
+                  <li>Depression</li>
+                  <li>Anxiety</li>
+                  <li>ADHD</li>
+                  <li>Bipolar DO</li>
+                </ul>
+              </li>
               <li>Evaluation and treatment of hormone deficiencies and imbalances:
                 <ul>
                   <li>Low or High Thyroid Hormone</li>
                   <li>Testosterone and Estrogen replacement</li>
                   <li>BioTe Bioidentical Hormones -- <a href="https://biote.com">BioTe
-                    Medical</a> </li>
+                    Medical</a></li>
                   <li>Autoimmune Thyroid Disease</li>
                 </ul>
               </li>
@@ -98,16 +118,16 @@
               <li>Therapeutic phlebotomy for patients with high hemocrit (thick blood) due
                 to testosterone therapy or hemochromatosis. </li>
             </ul>
-            <h3 style="margin-left: 10px;"><a href="https://newphasesmedspa.com/">New Phases Medical
+            <h2 style="margin-left: 10px;"><a href="https://newphasesmedspa.com/" class="med-spa-link">New Phases Medical
               Spa for facials, Botox, Juvederm Filler, and IV Hydration.</a></h3>
             <div>
-              <p style="margin-top: 20px;font-size: 0.5em">&copy; Copyright 2021 by Lukner Medical Clinic, PLLC. All
+              <p style="margin-top: 20px; font-size: 0.6em; font-family: antic-didone; font-style: normal; font-weight: 400;">&copy; Copyright 2021 by Lukner Medical Clinic, PLLC. All
                 rights reserved.</p>
             </div>
           </div>
           <div class="second-col">
-            <h3 style="margin-bottom: 5px; margin-left: 10px;">Specific areas of Patient Care:</h3>
-            <ul style="margin-bottom: 20px;">
+            <h2 style="margin-bottom: 5px; margin-left: 10px; margin-top: 25px; padding-top: 20px; font-family: doppio-one; font-style: normal; font-weight: 400; font-size: 24px;">Specific Examples:</h2>
+<ul style="font-family: antic-didone;font-style: normal;font-weight: 400; margin-bottom: 20px;">
               <li>Dr. Lukner also diagnoses and treats conditions that affect specific external and internal organs
                 <ul style="margin-top: 2px; margin-bottom: 5px;">
                   <li>heart disease</li>
@@ -127,9 +147,9 @@
               <li> When appropriate, Dr. Lukner refers to and helps coordinate the care of various medical
                 specialists and surgeons. </li>
             </ul>
-            <section>
+            <section style="font-family: antic-didone">
               <h2 style="margin-left: 10px;">Contact Information</h2>
-              <div style="margin-left: 10px;">
+              <div style="font-family: antic-didone; margin-left: 10px;">
                 <p> Lukner Medical Clinic, PLLC</p>
                 <p>2545 Perryton Pkwy, Ste. 31</p>
                 <p>Pampa, TX 79065</p>
