@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{kxf0iwn}" />
+    <file url="PROJECT" libraries="{amaranth:n4:default;acme:n4:default;abril-fatface:n4:default;cabin:n4:default;doppio-one:n4:default;lusitana:n4:default;antic-didone:n4:default, kxf0iwn}" />
   </component>
 </project>

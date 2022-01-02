@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="kxf0iwn" level="application" />
+    <orderEntry type="library" name="amaranth:n4:default;acme:n4:default;abril-fatface:n4:default;cabin:n4:default;doppio-one:n4:default;lusitana:n4:default;antic-didone:n4:default" level="application" />
   </component>
 </module>
