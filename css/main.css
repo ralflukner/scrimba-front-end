@@ -174,10 +174,14 @@ textarea {
     text-shadow: none !important;
   }
   header {
-	  margin: 0;
-	}
+    margin: 0;
+  }
   a, a:visited {
     text-decoration: underline;
+  }
+  /* Navigation bar link - no underline */
+  nav a:visited {
+    text-decoration: none;
   }
   a[href]::after {
     content: " ("attr(href) ")";
@@ -357,9 +361,9 @@ h1, h2, h3 {
 .two-cols .first-col h2 {
   margin-top: 10px;
   margin-left: 10px;
-  font-family: doppio-one,serif;
+  font-family: doppio-one, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
 }
