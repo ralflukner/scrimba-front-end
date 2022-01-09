@@ -28,11 +28,11 @@ header .logoPlaceholder span {
 	font-weight: 700;
 	line-height: 53px;
 }
-header .profilePhoto {
+header .profilePhoto {/*
 	background-color: rgba(237,237,237,1.00);
 	width: 259px;
 	border-radius: 50%;
-	height: 259px;
+	height: 259px;*/
 	clear: both;
 }
 header .profileHeader h1 {
