@@ -34,6 +34,9 @@ header .profilePhoto {/*
 	width: 259px;
 	border-radius: 50%;
 	height: 259px;*/
+  margin-top: 50px;
+  width: 247px;
+  height: 319px;
 	clear: both;
 }
 header .profileHeader h1 {
