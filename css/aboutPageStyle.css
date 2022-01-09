@@ -2,6 +2,7 @@
 /* Global Styles */
 
 body {
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 92%;
@@ -99,7 +100,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(208,207,207,1.00);
+	color: rgba(106,106,106,1.00);
 }
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
@@ -234,6 +235,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	text-align: center;
 }
 .section2 .section2Content {
+	color: rgb(106,106,106);
 	margin-top: 10%;
 	text-align: justify;
 	margin-bottom: 10%;
@@ -371,6 +373,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	clear: both;
 }
 .section2 .section2Content {
+	color: rgb(106,106,106);
 	padding: 0px;
 	margin-left: 26%;
 	font-family: sans-serif;
