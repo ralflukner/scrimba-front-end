@@ -21,7 +21,7 @@ a, a:visited {
   color: inherit;
 }
 header {
-  position: fixed;
+/*  position: fixed;*/
   padding: 0;
   top: 0;
   left: 0;
@@ -168,7 +168,7 @@ header {
 }
 /* unvisited link */
 a:link {
-  color: red;
+  color: green;
 }
 /* Navigation bar link - no underline */
 nav a:link {
@@ -176,7 +176,7 @@ nav a:link {
 }
 /* visited link */
 a:visited {
-  color: green;
+  color: darkslategray;
 }
 /* mouse over link */
 a:hover {
